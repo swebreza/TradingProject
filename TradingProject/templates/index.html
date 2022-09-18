@@ -3,8 +3,12 @@
 <h1>All the content</h1>
 {% for data in csvreader %}
 <br />das
-{{row}}
+{{data}}
+
 
 {% endfor %}
+<a href="{% url 'BuildJson' %}">
+ <input type="button" value="Generate and download JSON file" />
+</a>
 
 {% endblock %}
