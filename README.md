@@ -10,4 +10,4 @@ get to the terminal and install pipenv
 then create a virtual server 
 `pipenv shell    `
 
-After that navigate to the projectfile and runserver
+After that navigate to the project folder and runserver
